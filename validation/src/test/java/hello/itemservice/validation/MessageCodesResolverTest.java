@@ -1,15 +1,9 @@
 package hello.itemservice.validation;
 
+import static org.assertj.core.api.Assertions.assertThat;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.context.MessageSource;
-import org.springframework.context.NoSuchMessageException;
 import org.springframework.validation.DefaultMessageCodesResolver;
 import org.springframework.validation.MessageCodesResolver;
-import java.util.Locale;
-
-import static org.assertj.core.api.Assertions.*;
 
 public class MessageCodesResolverTest {
 
