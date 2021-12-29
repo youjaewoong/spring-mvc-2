@@ -1,5 +1,4 @@
-# spring-boot-core-principle-basic
-스프링 핵심 원리 - 기본
+# validation
 
 - ValidationItemControllerV1 : map으로 error 처리
 
