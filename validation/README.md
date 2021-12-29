@@ -4,7 +4,7 @@
 - ValidationItemControllerV1 : map으로 error 처리
 
 - ValidationItemControllerV2
- - addItemV1 : BindingResult FieldError error 기본 처리
+	- addItemV1 : BindingResult FieldError error 기본 처리
  - addItemV2 : BindingResult FieldError error 값 나타나도록 처리
  - addItemV3 : errors.properties 값 적용
  - addItemV4 : rejectValue, reject 적용
@@ -15,7 +15,7 @@
  - addItem : global 에러검증 처리
  
 - ValidationItemControllerV3
-	- addItemV2 : SaveCheck validation groups 적용
+ - addItemV2 : SaveCheck validation groups 적용
   - editV2 : UpdateCheck validation groups 적용
   
 - ValidationItemControllerV4
