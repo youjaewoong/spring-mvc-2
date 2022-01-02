@@ -1,10 +1,12 @@
-# login
+# 홈
 - HomeController : 홈화면 추가
 	- home : 홈화면 이동
 	- homeLogin : 로그인 시 로그인 홈 화면 이동
 	- homeLoginV2 : 로그인 시 커스텀 세션 체크 후 로그인 홈 화면 이동
 	- homeLoginV3 : 로그인 시 세션 체크 후 로그인 홈 화면 이동
 	- homeLoginV3Spring : 로그인 시 @SessionAttribute 적용하여 로그인 홈 화면 이동
+	- homeLoginV3ArgumentResolver : @Login 어노테이션 적용하여 로그인 화면 이동
+		- @Login 어노테이션은 LoginMemberArgumentResolver 에서 동작한다.
 
 # 회원가입
 - Member
@@ -19,6 +21,7 @@
 	- login : 로그인 및 쿠키 처리
 	- loginV2 : 로그인 및 커스텀 세션 처리
 	- loginV3 : 로그인 및 세션 처리
+	- loginV4 : @RequestParam 및 redirectURL 처리
 	- logout : 쿠키 소멸 및 로그아웃
 	- logoutV2 : 커스텀 세션 소멸 및 로그아웃
 - LoginService
@@ -29,9 +32,24 @@
 - SessionInfoController
 	- sessionInfo : 세션정보를 호출한다.
 
-# 공통
+# Session 공통
 - SessionManager : 커스텀 세션 생성, 조회, 만료 처리
 - SessionConst : 세션 상수
+
+# 필터
+- LogFilter : 로그 필터
+- LoginCheckFilter : 로그인 인증 체크 필터
+- WebConfig
+	- LogFilter 필터 등록
+  - LoginCheckFilter 필터 등록
+  - addInterceptors
+  	- LogInterceptor 로그 인터셉터 등록
+  	- LoginCheckInterceptor 로그인 인터셉터 등록
+  - LoginMemberArgumentResolver : 세션 처리 resolvers 등록
+
+# 인터셉터
+- LogInterceptor  : 로그 필터
+- LoginCheckInterceptor : 로그인 인증 체크
 
 # 템플릿
 - loginHome : 로그인 홈 화면
