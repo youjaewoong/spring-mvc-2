@@ -15,12 +15,17 @@
 	 - errorPage404 : 404 페이지 이동
 	 - errorPage500 : 500 페이지 이동
 	 - printErrorInfo : Error 발생 시 Error 정보
+	 - errorPage500Api : json 포맷으로 에러 노출
 - WebServerCustomizer : Error 코드에 따라 ErrorPageController로 보낸다.
+
+## resolver
+- MyHandlerExceptionResolver : HandlerExceptionResolver 이용한 exception handler
 
 ## WebConfig
 - logFilter : 로그 필터 등록
 	- setDispatcherTypes 설정으로 로그 필터를 범위 지정
 - addInterceptors : 로그 인터셉터 등록
+- extendHandlerExceptionResolvers : ExceptionResolvers 등록
 	
 ## Filter
 - LogFilter : 로그 필터 정의
@@ -34,3 +39,9 @@
 	- 404.html
 	- 4xx.html
 	- 500.html
+	
+## 테스트
+- http://localhost:8080/error-404 -> 404.html
+- http://localhost:8080/error-400 -> 4xx.html - (400 오류 페이지가 없지만 4xx가 있음)
+- http://localhost:8080/error-500 -> 500.html
+- http://localhost:8080/error-ex -> 500.html (예외는 500으로 처리)
