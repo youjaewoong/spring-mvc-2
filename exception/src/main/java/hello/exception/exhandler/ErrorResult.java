@@ -1,4 +1,4 @@
-package hello.exception.exception.advice;
+package hello.exception.exhandler;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
