@@ -47,7 +47,7 @@ convert 기능을 사용해서 여러가지 convert 처리를 구현한 프로�
 - [FileStore 파일 저장 기능](https://github.com/youjaewoong/spring-mvc-2/blob/main/upload/src/main/java/hello/upload/file/FileStore.java)
 - [ItemController 파일 저장 컨트롤러](https://github.com/youjaewoong/spring-mvc-2/blob/main/upload/src/main/java/hello/upload/controller/ItemController.java)
 
-### [validation]([https://github.com/youjaewoong/spring-mvc-2/tree/main/upload](https://github.com/youjaewoong/spring-mvc-2/tree/main/validation))
+### [validation](https://github.com/youjaewoong/spring-mvc-2/tree/main/upload](https://github.com/youjaewoong/spring-mvc-2/tree/main/validation)
 validation 검증에 대한 프로젝트입니다.
 - [BeanValidationTest 객체에 선언된 validation 검증](https://github.com/youjaewoong/spring-mvc-2/blob/main/validation/src/test/java/hello/itemservice/validation/BeanValidationTest.java)
 - [MessageCodesResolverTest 선언된 메시지값들이 유효한지 검증](https://github.com/youjaewoong/spring-mvc-2/blob/main/validation/src/test/java/hello/itemservice/validation/MessageCodesResolverTest.java)
