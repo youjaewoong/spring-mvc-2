@@ -9,3 +9,6 @@
     - 4xx.html
     - 404.html
     - 500.html
+
+### form (thymeleaf)
+- [thymeleaf 의 특수기능을 사용하여 form 기능의 다양한 처리](https://github.com/youjaewoong/spring-mvc-2/tree/main/form/src/main/resources/templates/form)
