@@ -29,3 +29,7 @@ thymeleaf 의 form 태그의 여러 기능이  정의된 프로젝트 입니다.
 - [messages_en.properties 영문 메시지 기능](https://github.com/youjaewoong/spring-mvc-2/blob/main/message/src/main/resources/messages_en.properties)
 - [item.html 적용된 메시지값 출력](https://github.com/youjaewoong/spring-mvc-2/blob/main/message/src/main/resources/templates/message/item.html)
 - [application.properties 메시지 설정](https://github.com/youjaewoong/spring-mvc-2/blob/main/message/src/main/resources/application.properties)
+
+### thymeleaf-basic
+thymeleaf 기능들을 전반적으로 sample 형식으로 구현한 프로젝트입니다.
+- [공통 레이아웃 표현 처리](https://github.com/youjaewoong/spring-mvc-2/tree/main/thymeleaf-basic/src/main/resources/templates/template)
