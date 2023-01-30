@@ -1,7 +1,7 @@
 # spring-mvc-2
 
 ### exception
-로깅 기능, 예외 처리, 오류류 페이지 기능이 정의된 프로젝트 입니다.
+로깅 기능, 예외 처리, 오류 페이지 기능이 정의된 프로젝트 입니다.
 - [ApiExceptionController exception 테스트](https://github.com/youjaewoong/spring-mvc-2/blob/main/exception/src/main/java/hello/exception/api/ApiExceptionController.java)
 - [LogInterceptor 공통 로그처리 기능](https://github.com/youjaewoong/spring-mvc-2/blob/main/exception/src/main/java/hello/exception/interceptor/LogInterceptor.java)
 - [ExControllerAdvice 공통 exception 처리 기능](https://github.com/youjaewoong/spring-mvc-2/blob/main/exception/src/main/java/hello/exception/exhandler/ExControllerAdvice.java)
@@ -41,5 +41,12 @@ convert 기능을 사용해서 여러가지 convert 처리를 구현한 프로�
 - [converter package 여러기능의 converter 정의](https://github.com/youjaewoong/spring-mvc-2/tree/main/typeconverter/src/main/java/hello/typeconverter/converter)
 - [FormatterController 객체의 포맷 처리 후 호출](https://github.com/youjaewoong/spring-mvc-2/blob/main/typeconverter/src/main/java/hello/typeconverter/controller/FormatterController.java)
 - [ConverterController 객체의 convert 기능이 추가된 후 호출](https://github.com/youjaewoong/spring-mvc-2/blob/main/typeconverter/src/main/java/hello/typeconverter/controller/ConverterController.java)
+
+### upload
+파일업로드 기능 처리된 프로젝트 입니다.
+- [FileStore 파일 저장 기능](https://github.com/youjaewoong/spring-mvc-2/blob/main/upload/src/main/java/hello/upload/file/FileStore.java)
+- [ItemController 파일 저장 컨트롤러](https://github.com/youjaewoong/spring-mvc-2/blob/main/upload/src/main/java/hello/upload/controller/ItemController.java)
+
+
 
 
