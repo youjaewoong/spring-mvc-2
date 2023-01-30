@@ -22,3 +22,10 @@ thymeleaf 의 form 태그의 여러 기능이  정의된 프로젝트 입니다.
 - [LoginCheckInterceptor API 실행시 마다 로그인 체크 기능](https://github.com/youjaewoong/spring-mvc-2/blob/main/login/src/main/java/hello/login/web/interceptor/LogInterceptor.java)
 - [LogFilter API 싫행시 마다 log 기능](https://github.com/youjaewoong/spring-mvc-2/blob/main/login/src/main/java/hello/login/web/filter/LogFilter.java)
 - [LoginMemberArgumentResolver @Loign 어노테이션이 실행되는 곳에서 컨트롤러 호출전에 실행되면서 세션체크하는 기능](https://github.com/youjaewoong/spring-mvc-2/blob/main/login/src/main/java/hello/login/web/argumentresolver/LoginMemberArgumentResolver.java)
+
+### messages
+메시지 국제화 설정이 중정되어 있는 프로젝트 입니다.
+- [message.properties 한글 메시지 기능](https://github.com/youjaewoong/spring-mvc-2/blob/main/message/src/main/resources/messages.properties)
+- [messages_en.properties 영문 메시지 기능](https://github.com/youjaewoong/spring-mvc-2/blob/main/message/src/main/resources/messages_en.properties)
+- [item.html 적용된 메시지값 출력](https://github.com/youjaewoong/spring-mvc-2/blob/main/message/src/main/resources/templates/message/item.html)
+- [application.properties 메시지 설정](https://github.com/youjaewoong/spring-mvc-2/blob/main/message/src/main/resources/application.properties)
