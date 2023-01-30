@@ -1,6 +1,6 @@
 # spring-mvc-2
 
-### exception
+### [exception](https://github.com/youjaewoong/spring-mvc-2/tree/main/exception)
 로깅 기능, 예외 처리, 오류 페이지 기능이 정의된 프로젝트 입니다.
 - [ApiExceptionController exception 테스트](https://github.com/youjaewoong/spring-mvc-2/blob/main/exception/src/main/java/hello/exception/api/ApiExceptionController.java)
 - [LogInterceptor 공통 로그처리 기능](https://github.com/youjaewoong/spring-mvc-2/blob/main/exception/src/main/java/hello/exception/interceptor/LogInterceptor.java)
