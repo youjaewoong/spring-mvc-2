@@ -33,3 +33,13 @@ thymeleaf 의 form 태그의 여러 기능이  정의된 프로젝트 입니다.
 ### thymeleaf-basic
 thymeleaf 기능들을 전반적으로 sample 형식으로 구현한 프로젝트입니다.
 - [공통 레이아웃 표현 처리](https://github.com/youjaewoong/spring-mvc-2/tree/main/thymeleaf-basic/src/main/resources/templates/template)
+
+### typeconverter
+convert 기능을 사용해서 여러가지 convert 처리를 구현한 프로젝트 입니다.
+- [ConversionServiceTest converter를 등록하고 test하는 기능](https://github.com/youjaewoong/spring-mvc-2/blob/main/typeconverter/src/test/java/hello/typeconverter/converter/ConversionServiceTest.java)
+- [WebConfig Conver 기능 등록](https://github.com/youjaewoong/spring-mvc-2/blob/main/typeconverter/src/main/java/hello/typeconverter/WebConfig.java)
+- [converter package 여러기능의 converter 정의](https://github.com/youjaewoong/spring-mvc-2/tree/main/typeconverter/src/main/java/hello/typeconverter/converter)
+- [FormatterController 객체의 포맷 처리 후 호출](https://github.com/youjaewoong/spring-mvc-2/blob/main/typeconverter/src/main/java/hello/typeconverter/controller/FormatterController.java)
+- [ConverterController 객체의 convert 기능이 추가된 후 호출](https://github.com/youjaewoong/spring-mvc-2/blob/main/typeconverter/src/main/java/hello/typeconverter/controller/ConverterController.java)
+
+
